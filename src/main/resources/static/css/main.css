@@ -44,6 +44,7 @@ h1 {
   display: block;
   width: 100%;
   text-align: center;
+  align: top;
 }
 @media screen and (max-width: 600px) {
   h1 {

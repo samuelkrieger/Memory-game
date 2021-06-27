@@ -1,8 +1,4 @@
 
-
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -44,7 +40,7 @@ TThis academic project aims to create a memory game about a pandemic, using reso
 <!-- Version -->
 ## version
 
-unfinished project, version 0.1
+unfinished project, version 0.3 
 
 <!-- USAGE EXAMPLES -->
 ## specialthanks

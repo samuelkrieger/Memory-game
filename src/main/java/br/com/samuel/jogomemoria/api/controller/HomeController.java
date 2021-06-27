@@ -17,6 +17,11 @@ public class HomeController {
 		 
 		   return new ModelAndView("index");
 	}
+	@RequestMapping("/score")
+	public ModelAndView score(){
+		 
+		   return new ModelAndView("score");
+	}
        
 }
 	 
