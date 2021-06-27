@@ -8,6 +8,7 @@
 <p align="center">
   <a href="https://github.com/samuelkrieger/Memory-game">
     <img src="image/print.png" alt="Logo" width="80" height="80">
+    <img src="image/print2.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Pandemic Memory Game</h3>

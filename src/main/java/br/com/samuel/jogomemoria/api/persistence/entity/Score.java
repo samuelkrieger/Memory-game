@@ -1,5 +1,7 @@
 package br.com.samuel.jogomemoria.api.persistence.entity;
 
+import java.util.function.Function;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -29,6 +31,10 @@ public class Score {
 	
 	@Column(nullable = false,name = "pontuacao")
 	private double value;
+	
+	public <R> R map(Function<Score, R> function){
+        return function.apply(this);
+    }
 
 	public double getValue() {
 		return value;

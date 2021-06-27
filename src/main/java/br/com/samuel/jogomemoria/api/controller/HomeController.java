@@ -7,12 +7,16 @@ import org.springframework.web.servlet.ModelAndView;
 @RestController
 public class HomeController {
 	
-	
 	@RequestMapping("/")
+	public ModelAndView menu(){
+		 
+		   return new ModelAndView("menu");
+	}
+	@RequestMapping("/index")
 	public ModelAndView index(){
 		 
 		   return new ModelAndView("index");
 	}
-	 
-	 
+       
 }
+	 

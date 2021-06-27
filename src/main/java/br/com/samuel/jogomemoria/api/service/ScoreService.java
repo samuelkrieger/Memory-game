@@ -2,23 +2,15 @@ package br.com.samuel.jogomemoria.api.service;
 
 import java.util.Optional;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.samuel.jogomemoria.api.persistence.entity.Score;
-import br.com.samuel.jogomemoria.api.persistence.repository.ScoreRepository;
+import br.com.samuel.jogomemoria.api.model.response.ScoreResponse;
 
 @Service
 
-public class ScoreService {
+public interface  ScoreService {
 	
-	@Autowired
-	private ScoreRepository repository;
-	
+	Optional<ScoreResponse> get(Long id);
 	
 	
-	
-	public Optional<Score> get(Long id) {
-		return repository.findById(id);
-	}
 }
